@@ -70,7 +70,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .header-toggle {
-        /* display: block; */
+        display: none;
         color:white;
         cursor: pointer;
     }
