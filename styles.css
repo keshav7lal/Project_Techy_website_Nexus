@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-    background: #000000;
+    background: #f9f5f5;
     display: flex;
     padding: 10px 34px;
     margin: 2px;
@@ -30,8 +30,8 @@ body {
 .header-toggle {
     display: none;
     cursor: pointer;
-    color: rgb(253, 253, 253);
-    font-size: 22px;
+    color: rgb(0, 0, 0);
+    /* font-size: 22px; */
 }
 
 .logo {
@@ -60,18 +60,31 @@ body {
 }
 
 .header-section li a {
-    color: #ffffff;
+    color: #1a0000;
     font-family: "Inconsolata", monospace;
     font-size: 22px;
     text-decoration: none;
     transition: all 0.2s ease;
 }
+.header-section li a:hover::before {
+    content: attr(data-text); /* Show link text on hover */
+    position: absolute;
+    top: -30px; /* Adjust the distance above the link */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff; /* Background color for the link text */
+    color: #4169E1; /* Text color for the link text */
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0; /* Initially hide the link text */
+    transition: all 0.3s ease;
+}
 
 
 @media screen and (max-width: 768px) {
     .header-toggle {
-        display: none;
-        color:white;
+        display: block;
+        /* color:rgb(248, 221, 20); */
         cursor: pointer;
     }
 
