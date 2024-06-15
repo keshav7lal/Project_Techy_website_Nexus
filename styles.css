@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Teko:wght@300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+FR+Moderne:wght@100..400&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -157,6 +160,7 @@ body {
 }
 
 #about-us h1 {
+    font-family: "Fjalla One", sans-serif;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -169,7 +173,7 @@ body {
 
 .aboutText p {
     color: #832958;
-    font-family: "Inconsolata", monospace;
+    font-family: "Rubik", sans-serif;
     text-align: center;
     font-weight: 500;
 }
@@ -267,9 +271,10 @@ body {
     margin-bottom: 5px;
 }
 #contact-us h4{
+    font-family: "Roboto Condensed", sans-serif;
     color:black;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #contact-us {
@@ -312,6 +317,7 @@ body {
     box-shadow: 8px 9px 14px 7px rgba(0, 0, 0, 0.5);
 }
 #contact-us form p{
+    font-family: "Playwrite FR Moderne", cursive;
     color:black;
     width: calc(80% + 28px);
     font-size: 15px;
