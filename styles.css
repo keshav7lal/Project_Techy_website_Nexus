@@ -164,11 +164,11 @@ body {
 .aboutText {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
 }
 
 .aboutText p {
-    color: black;
+    color: #832958;
     font-family: "Inconsolata", monospace;
     text-align: center;
     font-weight: 500;
